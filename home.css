@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+:root{
+  --background-color:rgb(5, 34, 32);
+}
+
+h1{
+  font-size: 6em;
+}
+.heading{
+  padding-top: 10em;
+}
+
+.social-icons{
+  padding: 2em;
+}
+
+
+
+.main-heading{
+  background-color: var(--background-color);
+  color: white;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+}
+
+
+.options{
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  max-width: 80em;
+  padding: 3em;
+  height: auto;
+}
+
+.options-container{
+  padding: 1em;
+  background-color:azure;
+  border-right: 10px rgb(255, 255, 255) solid;
+}
+
+.options-container-last{
+  padding: 1em;
+  background-color:azure;
+}
+
+.content{
+  max-width: 40em;
+  font-size: 1.2em;
+}
+
+.footer{
+  background-color: grey;
+}
+
+.details{
+  padding: 2em;
+  color: white;
+  max-width: 60em;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.sub-details{
+  border-right: 3px solid black;
+  padding: 1em;
+}
+
+.sub-details-last{
+  padding: 1em;
+}
+
+.icon-class{
+  padding-bottom: 2em;
+}
+
+@media (max-width: 500px){
+  .sub-details{
+    border-bottom: 3px solid black;
+    border-right: None;
+  }
+
+  .options-container{
+    padding: 1em;
+    background-color:azure;
+    border-bottom: 10px rgb(255, 255, 255) solid;
+    border-right: None;
+  }
+
+}
+
+
+
+
+
